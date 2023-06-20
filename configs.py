@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "23990433"))
-	API_HASH = os.environ.get("API_HASH", "e6c4b6ee1933711bc4da9d7d17e1eb20")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN", "6133339978:AAHPH8aE-RqwVhBKgAX7SDqG6HVWbN70uSg")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME", "File_store12_bot")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001837109537"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5821871362"))
+	API_ID = int(os.environ.get("API_ID", "21608308"))
+	API_HASH = os.environ.get("API_HASH", "decdf8683a924e72220a94e49ed8d3ce")
+	BOT_TOKEN = os.environ.get("BOT_TOKEN", "5851143528:AAGInIC0gYOd0WtSwff7D-EgQDfG3eqX3Rw")
+	BOT_USERNAME = os.environ.get("BOT_USERNAME", "ThammuTv_TT_Bot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001888985177"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1904146512"))
 	DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://aadi:sonybravia@cluster0.q5jzwv8.mongodb.net/?retryWrites=true&w=majority")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "SK_MoviesOffl")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "ThammuTV")
+	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001705130956")
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
