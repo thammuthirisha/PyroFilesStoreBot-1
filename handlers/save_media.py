@@ -55,7 +55,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
-                 [InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates"),
+                 [InlineKeyboardButton("Bots Channel", url="https://t.me/ThammuTV"),
                   InlineKeyboardButton("Support Group", url="https://t.me/ThammuTV")]]
             ),
             disable_web_page_preview=True
