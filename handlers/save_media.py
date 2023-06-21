@@ -50,9 +50,7 @@ async def save_batch_media_in_channel(bot: Client, editable: Message, message_id
             ]])
         )
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThammuTV_{str_to_b64(str(SaveMessage.id))}"
-        (media_type = message.document or message.video or message.audio or message.photo
-        # get file name
-        file_name = media_type.file_name await editable.edit
+        file_name = media_type.file_name await editable.edit(
             f"**Batch Files Stored in my Database!**\n\nHere is the Permanent Link of your files: {share_link} \n\n"
             f"Just Click the link to get your files!",
             reply_markup=InlineKeyboardMarkup(
