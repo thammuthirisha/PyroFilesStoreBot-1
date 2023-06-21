@@ -12,9 +12,6 @@ async def reply_forward(message: Message, file_id: int):
     try:
         await message.reply_text(
             f"**Here is Sharable Link of this file:**\n"
-            f"**media_type = message.document or message.video or message.audio or message.photo
-        # get file name
-        file_name = media_type.file_name**\n"
             f"https://t.me/{Config.BOT_USERNAME}?start=ThammuTV_{str_to_b64(str(file_id))}\n\n"
             f"__To Retrive the Stored File, just open the link!__",
             disable_web_page_preview=True, quote=True)
