@@ -93,7 +93,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await editable.edit(
             "**Click Get Video 👇**\n\n"
             f"**{file_name}**\n\n"
-            f"H: {share_link} \n\n"
+            f"Link 🔗 - {share_link} \n\n"
             "(Start 👉 Join Main Channel 👉 Try again)
 
 💐Join Now: @ThammuTv",
