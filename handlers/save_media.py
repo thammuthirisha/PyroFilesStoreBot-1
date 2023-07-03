@@ -91,8 +91,9 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         media_type = message.document or message.video or message.audio 
         file_name = media_type.file_name
         await editable.edit(
-            "**Click Get Video 👇**\n\n"
+            
             f"**{file_name}**\n\n"
+            "**Click Get Video 👇**\n\n"
             f"Link 🔗 - {share_link} \n\n"
             f"(Start 👉 Join Main Channel 👉 Try again)\n\n"
 
