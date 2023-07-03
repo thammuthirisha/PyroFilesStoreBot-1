@@ -93,8 +93,10 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await editable.edit(
             "**Click Get Video 👇**\n\n"
             f"**{file_name}**\n\n"
-            f"Here is the Permanent Link of your file: {share_link} \n\n"
-            "Just Click the link to get your file!",
+            f"H: {share_link} \n\n"
+            "(Start 👉 Join Main Channel 👉 Try again)
+
+💐Join Now: @ThammuTv",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
                  [InlineKeyboardButton("Bots Channel", url="https://t.me/ThammuTV"),
