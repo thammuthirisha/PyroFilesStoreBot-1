@@ -89,7 +89,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             disable_web_page_preview=True)
         share_link = f"https://t.me/{Config.BOT_USERNAME}?start=ThammuTV_{str_to_b64(file_er_id)}"
         media_type = message.document or message.video or message.audio 
-        file_name = media_type.filename
+        filename = media_type.filename
         await editable.edit(
             
             f"**{filename}**\n\n"
