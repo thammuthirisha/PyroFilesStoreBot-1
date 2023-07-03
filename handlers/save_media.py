@@ -91,6 +91,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
        media_type = message.document or message.video or message.audio 
         
 caption = media_type.caption
+file_name = media_type.file_name
         await editable.edit(
             
             f"**{caption}**\n\n"
