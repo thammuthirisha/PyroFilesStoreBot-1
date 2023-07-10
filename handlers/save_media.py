@@ -98,7 +98,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             f"**{caption}**\n\n"
             "**Click Get Video 👇**\n\n"
             f"Link 🔗 - {share_link} \n\n"
-            f"(Start 👉 Join Main Channel 👉 Try again)\n\n"
+            f"Demo Video: @Demo_Tricks  👀\n\n"
 
              f"💐Main Channel : @ThammuTv ❤",
             reply_markup=InlineKeyboardMarkup(
