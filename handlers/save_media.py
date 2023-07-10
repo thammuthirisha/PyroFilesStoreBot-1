@@ -100,7 +100,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
             f"Link 🔗 - {share_link} \n\n"
             f"(Start 👉 Join Main Channel 👉 Try again)\n\n"
 
-             f"💐Join Now: @ThammuTv",
+             f"💐Main Channel : @ThammuTv ❤",
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("Open Link", url=share_link)],
                  [InlineKeyboardButton("Bots Channel", url="https://t.me/ThammuTV"),
