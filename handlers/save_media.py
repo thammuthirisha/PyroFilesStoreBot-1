@@ -96,7 +96,7 @@ async def save_media_in_channel(bot: Client, editable: Message, message: Message
         await editable.edit(
             
             f"**{caption}**\n\n"
-            "**Click Get Video 👇**\n\n"
+            
             f"Link 🔗 - {share_link} \n\n",
             
              
